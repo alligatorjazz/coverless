@@ -1,0 +1,29 @@
+:root {
+	--platinum: #e9e9e9ff;
+	--cameo-pink: #e4afbcff;
+	--shimmering-blush: #df748fff;
+	--eerie-black: #232323ff;
+	--eerie-black-2: #1b1b1bff;
+
+	--background-primary: var(--eerie-black-2);
+	--background-secondary: var(--eerie-black);
+	--accent-color: var(--shimmering-blush);
+	--text-color: var(--platinum);
+	--header-color: var(--cameo-pink);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--background-primary);
+	color: var(--text-color);
+	margin: 0;
+	padding: 0;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}

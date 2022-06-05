@@ -1,0 +1,16 @@
+@mixin basic-text {
+	color: var(--text-color);
+	margin: 0;
+	padding: 0;
+}
+
+.text {
+	@include basic-text();
+	font-family: 'Archivo', sans-serif;
+}
+
+.header {
+	@include basic-text();
+	font-family: 'Sora', sans-serif;
+	opacity: 0.9;
+}
